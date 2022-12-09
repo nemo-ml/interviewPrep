@@ -18,5 +18,8 @@
     <ClCompile Include="EarlyBinding.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LateBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,9 +1,9 @@
-/** 
+/*
  Early Binding (compile - time time polymorphism) As the name indicates, compiler(or linker) 
  directly associate an address to the function call.It replaces the call with a machine language 
  instruction that tells the mainframe to leap to the address of the function.
  By default early binding happens in C++ 
- **/
+ */
 
  // CPP Program to illustrate early binding.
  // Any normal function call (without virtual) is binded early. Here we have taken base
@@ -30,7 +30,7 @@ public:
 	}
 };
 
-int main()
+int main(void)
 {
 	// CPP Program to illustrate early binding. Any normal function call (without virtual)
 	// is binded early. Here we have taken base and derived class example so that readers
