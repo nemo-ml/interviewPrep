@@ -1,34 +1,24 @@
 // Implementation of Singleton Class in C++
 
-// Implementation of Singleton Class
-// in C++
+// Implementation of Singleton Class in C++
 //#include <bits/stdc++.h>
 #include <iostream>
-using namespace std;
+
 
 
 class Singleton {
 private:
-
-	// member variables
-	string name, loves;
-
-	static Singleton*
-
-		// static pointer which will points
-		//to the instance of this class
+	std::string name, loves;			// member variables
+	static Singleton*					// static pointer which will points 
+										// to the instance of this class
 		instancePtr;
 
-	// Default constructor
-	Singleton()
-	{
-	}
+	Singleton()							// Default constructor
+	{  }
 
 public:
 
-	// deleting copy constructor
-	Singleton(const Singleton& obj)
-		= delete;
+	Singleton(const Singleton& obj)	= delete;		// deleting copy constructor
 
 	/*
 		getInstance() is a static method that returns an
@@ -68,8 +58,7 @@ public:
 	}
 
 	// sets values of member variables.
-	void setValues(string name,
-		string loves)
+	void setValues(std::string name, std::string loves)
 	{
 		this->name = name;
 		this->loves = loves;
@@ -78,8 +67,7 @@ public:
 	// prints values of member variables
 	void print()
 	{
-		cout << name << " Loves " <<
-			loves << "." << endl;
+		std::cout << name << " Loves " << loves << "." << std::endl;
 	}
 };
 
@@ -89,30 +77,25 @@ Singleton* Singleton::instancePtr = NULL;
 // Driver code
 int main()
 {
-	Singleton* GeeksForGeeks
-		= Singleton::getInstance();
+	Singleton* OOPs_Concepts = Singleton::getInstance();
 
 	// setting values of member variables.
-	GeeksForGeeks->setValues("Manish",
-		"GeeksForGeeks");
+	OOPs_Concepts->setValues("Nemo",
+		"OOPs_Concepts");
 
 	// printing values of member variables.
-	GeeksForGeeks->print();
-
-	cout << "Address of GeeksForGeeks: " <<
-		GeeksForGeeks << endl;
-
-	cout << endl;
+	OOPs_Concepts->print();
+	std::cout << "Address of OOPs_Concepts: " << OOPs_Concepts << std::endl;
+	std::cout << std::endl;
 
 	Singleton* gfg = Singleton::getInstance();
 
 	// setting values of member variables.
-	gfg->setValues("Vartika",
-		"GeeksForGeeks");
+	gfg->setValues("Ani", "OOPs_Concepts");
 
 	// Printing values of member variables.
 	gfg->print();
 
-	cout << "Address of gfg: " << gfg << endl;
+	std::cout << "Address of gfg: " << gfg << std::endl;
 	return 0;
 }
