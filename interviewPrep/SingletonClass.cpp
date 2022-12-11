@@ -116,3 +116,22 @@ int main()
 	std::cout << "Address of gfg: " << gfg << std::endl;
 	return 0;
 }
+
+/*
+Explanation:
+
+Firstly, we made all the constructor private so that an instance of
+the Singleton class can’t be instantiated from outside of it. We deleted 
+copy constructor so that copy of the instance cannot be created. Created 
+a static member instancePtrand initialized it with NULL.It points to the 
+instance of Singleton class. Created a getInstance() method which returns 
+an instance of the Singleton class.It is a static method because static
+variables are accessed by only static methodsand we have to access instancePtr
+which is a static member. If there already exists an instance of the Singleton 
+class then getInstance() will return a pointer to that instance as we can have 
+only one instance of the Singleton class. If instancePtr == NULL that means
+there exists no instance of the Singleton class.So, getInstance() will instantiate 
+an instance of the Singleton classand return a pointer to it. We cannot create an
+instance of the Singleton class as all constructors are private.We have to use the 
+getInstance() method to get an instance of it.
+*/
