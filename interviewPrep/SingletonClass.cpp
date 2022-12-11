@@ -1,6 +1,23 @@
 // Implementation of Singleton Class in C++
 
-// Implementation of Singleton Class in C++
+/* 
+A singleton class is a special type of class in object - oriented 
+programming which can have only one object or instance at a time.
+In other words, we can instantiate only one instance of the singleton
+class.The new variable also points to the initial instance created
+if we attempt to instantiate the Singleton class after the first time.
+This is implemented by using the core concepts of object - oriented
+programming namely access modifiers, constructors& static methods.
+
+Steps to Implement Singleton Class in C++:
+
+1. Make all the constructors of the class private.
+2. Delete the copy constructor of the class.
+3. Make a private static pointer that can point to the same class object (singleton class).
+4. Make a public static method that returns the pointer to the same class object (singleton class).
+*/
+
+
 //#include <bits/stdc++.h>
 #include <iostream>
 
