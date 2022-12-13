@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="constructor.cpp" />
     <ClCompile Include="EarlyBinding.cpp" />
+    <ClCompile Include="FriendClass.cpp" />
     <ClCompile Include="LateBinding.cpp" />
     <ClCompile Include="SingletonClass.cpp" />
   </ItemGroup>
