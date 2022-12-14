@@ -68,7 +68,7 @@ int main()
 
 	bObjectPointer->print();		//  Virtual function, binded at runtime - Late Binding
 
-	dObject.show();
+	dObject.show();					// Show() function called to print derived class message
 
 	bObjectPointer->show();			// Non-virtual function, binded at compile time - Early Binding
 
