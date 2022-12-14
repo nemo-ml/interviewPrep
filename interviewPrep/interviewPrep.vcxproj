@@ -133,6 +133,7 @@
     <ClCompile Include="LateBinding.cpp" />
     <ClCompile Include="SingletonClass.cpp" />
     <ClCompile Include="VirtualFunction.cpp" />
+    <ClCompile Include="VirtualFunc_implement.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
