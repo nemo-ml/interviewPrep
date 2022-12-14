@@ -62,9 +62,9 @@ public:
 
 int main()
 {
-	Base* bObjectPointer;
+	Base* bObjectPointer;			// Class object pointer 
 	Derived dObject;
-	bObjectPointer = &dObject;
+	bObjectPointer = &dObject;		// Initialization of reference variable
 
 	bObjectPointer->print();		//  Virtual function, binded at runtime - Late Binding
 
