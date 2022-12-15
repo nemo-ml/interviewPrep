@@ -134,6 +134,7 @@
     <ClCompile Include="SingletonClass.cpp" />
     <ClCompile Include="VirtualFunction.cpp" />
     <ClCompile Include="VirtualFunc_implement.cpp" />
+    <ClCompile Include="VTable.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

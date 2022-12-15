@@ -36,5 +36,8 @@
     <ClCompile Include="VirtualFunc_implement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="VTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
