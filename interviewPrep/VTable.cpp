@@ -35,16 +35,18 @@ public:
 
 int main()
 {
-	Base* baseObject;			// Base Class Pointer Object Created (pointer_name)->(variable_name)
-	Derived derivedObject;		// Object created 
-	baseObject = &derivedObject;
+	//Base* baseObject;			// Base Class Pointer Object Created (pointer_name)->(variable_name)
+	//Derived derivedObject;		// Object created 
+	//baseObject = &derivedObject;
+
+	Base* baseObject = new Derived;
 
 	// (pointer_name)->(variable_name)
 	baseObject->func_1();		// Early binding because fun1() is non-virtual in Base Class
 	baseObject->func_2();		// Late binding RUN-TIME POLYMORPHISM (RTP)
 	baseObject->func_3();		// Late binding RUN-TIME POLYMORPHISM (RTP)
 	baseObject->func_4();
-	derivedObject.func_4(5);
+	//derivedObject.func_4(5);
 }
 /*
 Explanation:
