@@ -39,5 +39,8 @@
     <ClCompile Include="VTable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="inheritance_conecpt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
