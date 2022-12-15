@@ -105,3 +105,27 @@ int main()							// main function
 
 	return 0;
 }
+
+/*
+In the above program, the ‘Child’ class is publicly inherited from the ‘Parent’ class
+so the public data members of the class ‘Parent’ will also be inherited by the class ‘Child’.
+
+Modes of Inheritance: There are 3 modes of inheritance.
+
+Public Mode: 
+If we derive a subclass from a public base class. 
+Then the public member of the base class will become public in the derived class and 
+protected members of the base class will become protected in the derived class.
+
+Protected Mode: 
+If we derive a subclass from a Protected base class. Then both public members and 
+protected members of the base class will become protected in the derived class.
+
+Private Mode:
+If we derive a subclass from a Private base class. Then both public members 
+and protected members of the base class will become Private in the derived class.
+
+Note: The private members in the base class cannot be directly accessed in the derived class, 
+while protected members can be directly accessed.
+
+*/
