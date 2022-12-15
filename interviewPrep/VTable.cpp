@@ -9,6 +9,7 @@ inserted as a data member of that class.
 Irrespective of object is created or not, class contains as a member a static array of function 
 pointers called VTABLE. Cells of this table store the address of each virtual function contained 
 in that class.
+
 */
 
 // CPP program to illustrate working of Virtual Functions
