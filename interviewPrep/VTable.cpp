@@ -45,3 +45,18 @@ int main()
 	baseObject->func_4();
 	derivedObject.func_4(5);
 }
+/*
+Explanation:
+Initially, we create a pointer of type base class and initialize it with the address of the derived 
+class object. When we create an object of the derived class, the compiler creates a pointer as a data
+member of the class containing the address of VTABLE of the derived class. 
+
+Similar concept of Late and Early Binding is used as in above example. For fun_1() function call, base 
+class version of function is called, fun_2() is overridden in derived class so derived class version is
+called, fun_3() is not overridden in derived class and is virtual function so base class version is 
+called, similarly fun_4() is not overridden so base class version is called.
+
+NOTE: fun_4(int) in derived class is different from virtual function fun_4() in base class as prototypes
+of both the functions are different.
+
+*/
