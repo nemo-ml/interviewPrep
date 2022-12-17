@@ -129,3 +129,13 @@ Note: The private members in the base class cannot be directly accessed in the d
 while protected members can be directly accessed.
 
 */
+
+class Derived : [virtual] [access - specifier] Base
+{
+	// member list
+};
+class Derived : [virtual] [access - specifier] Base1,
+	[virtual][access - specifier] Base2, . . .
+{
+	// member list
+};
