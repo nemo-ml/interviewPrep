@@ -26,7 +26,9 @@ class Person
 {
 	int id;
 	char name[100];
+
 public:
+
 	void set_p()
 	{
 		std::cout << "Enter the ID:" << std::endl;
@@ -45,7 +47,9 @@ class Student : private Person
 {
 	char course[50];
 	int fee;
+
 public:
+
 	void set_s()
 	{
 		set_p();
@@ -80,12 +84,14 @@ int main()
 class Parents						// Base Class 
 {
 public:
+
 	int id_p;
 };
 
 class Child : public Parents		// Sub class inheriting from Base Class(Parent)
 {
 public:
+
 	int id_c;
 };
 
