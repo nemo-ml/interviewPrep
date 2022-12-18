@@ -1,13 +1,11 @@
 /* Inheritance in C++
 
-The capability of a class to derive propertiesand characteristics
-from another class is called Inheritance.Inheritance is one of the 
-most important features of Object - Oriented Programming. 
+The capability of a class to derive propertiesand characteristics from another class is called 
+Inheritance.Inheritance is one of the most important features of Object - Oriented Programming. 
 
-Inheritance is a feature or a process in which, new classes are created 
-from the existing classes.The new class created is called “derived class” 
-or “child class” and the existing class is known as the “base class” or
-“parent class”.The derived class now is said to be inherited from the base class.
+Inheritance is a feature or a process in which, new classes are created from the existing classes.
+The new class created is called “derived class” or “child class” and the existing class is known as 
+the “base class” or “parent class”.The derived class now is said to be inherited from the base class.
 
 When we say derived class inherits the base class, it means, the derived class
 inherits all the properties of the base class, without changing the properties 
