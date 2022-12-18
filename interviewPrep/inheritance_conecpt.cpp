@@ -18,7 +18,6 @@ class for the base class.
 Sub Class : The class that inherits properties from another class is called Subclass or Derived Class.
 
 Super Class : The class whose properties are inherited by a subclass is called Base Class or Superclass.
-
 */
 
 // Example: define member function without argument within the class
