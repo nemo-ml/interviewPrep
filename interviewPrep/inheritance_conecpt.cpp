@@ -141,5 +141,5 @@ class Derived : [virtual] [access - specifier] Base1,
 
 	[virtual][access - specifier] Base2, . .]
 {
-	// member list
+	// member list...
 };
