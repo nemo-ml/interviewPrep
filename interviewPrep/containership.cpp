@@ -18,7 +18,7 @@ class first
 };
   
 // Container class
-class second 
+class Second 
 {
     first f;                // Creating object of first
 };
@@ -28,8 +28,21 @@ class second
 #include<iostream>
 
 
-class first
+class First
 {
 public:
+    void showf()
+    {
+        std::cout << "Hello From First Class\n" << std::endl;
+    }
+};
 
+// Container Class 
+class Second
+{
+public:
+    void showf()
+    {
+        std::cout << "Hello From Second Class\n" << std::endl;
+    }
 };
