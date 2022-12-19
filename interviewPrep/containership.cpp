@@ -11,16 +11,16 @@ whereas the object that contains another object as its part or attribute is call
 *
 * 
 // Class that is to be contained
-class first {
-  
+
+class first 
+{  
     // Class Definition
 };
   
 // Container class
-class second {
-  
-    // Creating object of first
-    first f;
+class second 
+{
+    first f;                // Creating object of first
 };
 * 
 */
@@ -28,4 +28,8 @@ class second {
 #include<iostream>
 
 
-class 
+class first
+{
+public:
+
+};
