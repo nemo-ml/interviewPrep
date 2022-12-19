@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="constructor.cpp" />
+    <ClCompile Include="containership.cpp" />
     <ClCompile Include="EarlyBinding.cpp" />
     <ClCompile Include="FriendClass.cpp" />
     <ClCompile Include="inheritance_conecpt.cpp" />

@@ -42,5 +42,8 @@
     <ClCompile Include="inheritance_conecpt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="containership.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
