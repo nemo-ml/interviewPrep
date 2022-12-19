@@ -9,4 +9,23 @@ The class which contains the object and members of another class in this kind of
 called a container class and the object that is part of another object is called a contained object
 whereas the object that contains another object as its part or attribute is called a container object.
 *
-* /
+* 
+// Class that is to be contained
+class first {
+  
+    // Class Definition
+};
+  
+// Container class
+class second {
+  
+    // Creating object of first
+    first f;
+};
+* 
+*/
+
+#include<iostream>
+
+
+class 
