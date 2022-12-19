@@ -139,7 +139,7 @@ class Derived : [virtual] [access - specifier] Base
 };
 class Derived : [virtual] [access - specifier] Base1,
 
-	[virtual][access - specifier] Base2, . . .]
+	[virtual][access - specifier] Base2, . .]
 {
 	// member list
 };
