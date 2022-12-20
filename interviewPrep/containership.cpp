@@ -39,9 +39,33 @@ public:
 // Container Class 
 class Second
 {
+    First f;
 public:
-    void showf()
+    Second()
     {
-        std::cout << "Hello From Second Class\n" << std::endl;
+        f.showf();
     }
 };
+
+int main()
+{
+    Second s;
+}
+
+/*
+We can create an object of one class into another and that object will be a member of the class.
+This type of relationship between classes is known as containership or has_a relationship as one
+class contain the object of another class. And the class which contains the object and members of
+another class in this kind of relationship is called a container class.
+
+The object that is part of another object is called contained object, whereas object that contains 
+another object as its part or attribute is called container object.
+
+Containership
+-> When features of existing class are wanted inside your new class, but, not its interface 
+-> for eg:
+
+1)computer system has a hard disk
+2)car has an Engine, chassis, steering wheels.
+
+*/
