@@ -34,3 +34,21 @@ There are certain Rules of Function Overloading that should be followed while ov
 #include <iostream>
 
 
+class Geeks
+{
+public:
+	void func(int X)					// Function with 1 int parameter
+	{
+		std::cout << "Valuse of X" << X << std::endl;
+	}
+
+	void func(double X)					// Function with same name but 1 double parameter
+	{
+		std::cout << "Value of X" << X << std::endl;
+	}
+
+	void func(int X, int Y)
+	{
+
+	}
+};
