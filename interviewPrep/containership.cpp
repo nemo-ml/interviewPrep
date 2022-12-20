@@ -27,7 +27,6 @@ class Second
 
 #include<iostream>
 
-
 class First
 {
 public:
