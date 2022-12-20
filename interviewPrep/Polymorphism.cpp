@@ -14,5 +14,23 @@ Types of Polymorphism:
 * Runtime Polymorphism.
 */
 
+/* Compile-Time Polymorphism 
+This type of polymorphism is achieved by function overloading or operator overloading.
+
+* Function Overloading:
+When there are multiple functions with the same name but different parameters, 
+then the functions are said to be overloaded, hence this is known as Function Overloading.
+Functions can be overloaded by changing the number of arguments or/and changing the type of arguments.
+
+In simple terms, it is a feature of object-oriented programming providing many functions to have the
+same name but distinct parameters when numerous tasks are listed under one function name. 
+There are certain Rules of Function Overloading that should be followed while overloading a function.
+
+*/
+
+// Below is the C++ program to show function overloading or compile-time polymorphism:
+// C++ program to demonstrate function overloading or Compile-time Polymorphism
+
 #include <iostream>
+
 
