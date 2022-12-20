@@ -65,7 +65,7 @@ Containership
 -> When features of existing class are wanted inside your new class, but, not its interface 
 -> for eg:
 
-1)computer system has a hard disk
+1)computer system has a hard disk.
 2)car has an Engine, chassis, steering wheels.
 
 */
