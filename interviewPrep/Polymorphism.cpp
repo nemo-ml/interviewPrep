@@ -61,4 +61,11 @@ int main()								// Driver code - Main Func
 										// func() is called with int value
 	geekObject.func(7.25);				// func() is called with double value
 	geekObject.func(14, 21);			// func() is called with 2 int values
+
+	return 0;
 }
+
+/*
+Explanation: In the above example, a single function named function func() acts differently in
+three different situations, which is a property of polymorphism
+*/
