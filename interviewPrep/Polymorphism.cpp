@@ -85,7 +85,22 @@ Below is the C++ program to demonstrate operator overloading:
 
 class Complex
 {
+private:
+	int real;
+	int imag;
 
+public:
+	Complex(int r = 0, int i = 0)
+	{
+		real = r;
+		imag = i;
+	}
+
+	// This is automatically called when '+' is used with between two Complex objects
+	Complex operator+(const Complex& complexObject)
+	{
+
+	}
 };
 
 int main()
