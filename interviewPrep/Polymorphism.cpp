@@ -47,8 +47,18 @@ public:
 		std::cout << "Value of X" << X << std::endl;
 	}
 
-	void func(int X, int Y)
+	void func(int X, int Y)				// Function with same name and 2 int parameters
 	{
-
+		std::cout << "Values of X and Y" << X << "," << Y << std::endl;
 	}
 };
+	
+int main()								// Driver code - Main Func
+{
+	Geeks geekObject;
+
+	geekObject.func(7);					// Function being called depends on the parameters passed
+										// func() is called with int value
+	geekObject.func(7.25);				// func() is called with double value
+	geekObject.func(14, 21);			// func() is called with 2 int values
+}
