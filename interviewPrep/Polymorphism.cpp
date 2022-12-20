@@ -69,3 +69,30 @@ int main()								// Driver code - Main Func
 Explanation: In the above example, a single function named function func() acts differently in
 three different situations, which is a property of polymorphism
 */
+
+/* Operator Overloading:
+C++ has the ability to provide the operators with a special meaning for a data type, this
+ability is known as operator overloading. For example, we can make use of the addition operator 
+(+) for string class to concatenate two strings. We know that the task of this operator is to add 
+two operands. So a single operator ‘+’, when placed between integer operands, adds them and when 
+placed between string operands, concatenates them.
+
+Below is the C++ program to demonstrate operator overloading:
+*/
+
+
+// C++ program to demonstrate Operator Overloading or Compile-Time Polymorphism
+
+class Complex
+{
+
+};
+
+int main()
+{
+	return 0;
+}
+
+/*
+
+*/
