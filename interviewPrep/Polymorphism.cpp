@@ -99,7 +99,10 @@ public:
 	// This is automatically called when '+' is used with between two Complex objects
 	Complex operator+(const Complex& complexObject)
 	{
-
+		Complex res;
+		res.real = real + complexObject.real;
+		res.imag = imag + complexObject.imag;
+		return res;
 	}
 };
 
