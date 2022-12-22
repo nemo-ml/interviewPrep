@@ -104,6 +104,11 @@ public:
 		res.imag = imag + complexObject.imag;
 		return res;
 	}
+	void print()
+	{
+		std::cout << real << " + i" <<
+			imag << std::endl;
+	}
 };
 
 int main()
