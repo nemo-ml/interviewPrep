@@ -160,8 +160,7 @@ public:
 class derived : public base {
 public:
 
-	// print () is already virtual function in
-	// derived class, we could also declared as
+	// print () is already virtual function in derived class, we could also declared as
 	// virtual void print () explicitly
 	void print()
 	{
