@@ -64,7 +64,6 @@ int main()								// Driver code - Main Func
 
 	return 0;
 }
-
 /*
 Explanation: In the above example, a single function named function func() acts differently in
 three different situations, which is a property of polymorphism
