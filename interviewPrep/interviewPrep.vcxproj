@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Abstract_class.cpp" />
     <ClCompile Include="constructor.cpp" />
     <ClCompile Include="containership.cpp" />
     <ClCompile Include="EarlyBinding.cpp" />
