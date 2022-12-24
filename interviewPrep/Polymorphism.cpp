@@ -144,13 +144,12 @@ class base {
 public:
 	virtual void print()
 	{
-		cout << "print base class" <<
-			endl;
+		std::cout << "print base class" << std::endl;
 	}
 
 	void show()
 	{
-		cout << "show base class" << std::endl;
+		std::cout << "show base class" << std::endl;
 	}
 };
 
