@@ -140,7 +140,7 @@ of the base class.That base function is said to be overridden.
 // Below is the C++ program to demonstrate function overriding:  C++ program for function overriding
 #include <bits/stdc++.h>
 
-class base {
+class Base {
 public:
 	virtual void print()
 	{
@@ -153,7 +153,7 @@ public:
 	}
 };
 
-class derived : public base {
+class Derived : public Base {
 public:
 
 	// print () is already virtual function in derived class, we could also declared as
@@ -172,17 +172,17 @@ public:
 // Driver code
 int main()
 {
-	base* bptr;
-	derived d;
-	bptr = &d;
+	Base* ptrBaseObject;
+	Derived derivedObject;
+	ptrBaseObject = &derivedObject;
 
 	// Virtual function, binded at
 	// runtime (Runtime polymorphism)
-	bptr->print();
+	ptrBaseObject->print();
 
 	// Non-virtual function, binded
 	// at compile time
-	bptr->show();
+	ptrBaseObject->show();
 
 	return 0;
 }
