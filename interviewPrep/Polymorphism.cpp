@@ -137,8 +137,8 @@ Function Overriding occurs when a derived class has a definition for one of the 
 of the base class.That base function is said to be overridden.
 */
 
-// Below is the C++ program to demonstrate function overriding:  C++ program for function overriding
-#include <bits/stdc++.h>
+// Below is the C++ program to demonstrate function overriding: C++ program for function overriding
+#include <stdc++.h>
 
 class Base 
 {
