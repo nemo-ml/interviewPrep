@@ -139,7 +139,6 @@ of the base class.That base function is said to be overridden.
 
 // Below is the C++ program to demonstrate function overriding:  C++ program for function overriding
 #include <bits/stdc++.h>
-using namespace std;
 
 class base {
 public:
@@ -151,8 +150,7 @@ public:
 
 	void show()
 	{
-		cout << "show base class" <<
-			endl;
+		cout << "show base class" << std::endl;
 	}
 };
 
@@ -163,14 +161,12 @@ public:
 	// virtual void print () explicitly
 	void print()
 	{
-		cout << "print derived class" <<
-			endl;
+		std::cout << "print derived class" << std::endl;
 	}
 
 	void show()
 	{
-		cout << "show derived class" <<
-			endl;
+		std::cout << "show derived class" << std::endl;
 	}
 };
 
