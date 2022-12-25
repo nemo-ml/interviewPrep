@@ -18,8 +18,8 @@ public:
 
 /*
 2. What is abstract class ?
-A class which contains atleast one pure virtual function, is known as abstract class.see the
-following example
+A class which contains atleast one pure virtual function, is known as abstract class.
+see the following example
 
 
 // An abstract class
