@@ -23,11 +23,11 @@ A class which contains atleast one pure virtual function, is known as abstract c
 see the following exampl
 
 // An abstract class
-class Test {
-    // Data members of class
-public:
-    // Pure Virtual Function
-    virtual void show() = 0;
+
+class Test 
+{
+public:                             // Data members of class
+    virtual void show() = 0;        // Pure Virtual Function
 
     // Other members 
 };
