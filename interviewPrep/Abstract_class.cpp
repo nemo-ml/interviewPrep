@@ -32,7 +32,7 @@ public:                             // Data members of class
     // Other members 
 };
 
-in above example, Test is an abstract class because it has a pure virtual function.
+In above example, Test is an abstract class because it has a pure virtual function.
 
 */
 
