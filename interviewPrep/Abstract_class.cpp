@@ -48,7 +48,7 @@ public:
 
 int main(void)
 {
-    Test testObject;                // 
+    Test testObject;                // Pure virtual functions make a class abstract
 
     return 0;
 }
