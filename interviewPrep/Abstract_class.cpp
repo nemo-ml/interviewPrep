@@ -73,3 +73,10 @@ class Derived : public Base
 public:
     void show() { std::cout << "In Derived Class\n" << std::endl; }
 };
+
+int main(void)
+{
+    Base baseObject;            // Cant Create Object of Abstract Class
+
+    Derived derivedObject;      // Object is created for Derived Class
+}
