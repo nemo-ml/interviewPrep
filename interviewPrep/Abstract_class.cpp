@@ -37,3 +37,12 @@ In above example, Test is an abstract class because it has a pure virtual functi
 */
 
 #include<iostream>
+
+class Test
+{
+    int X;
+public:
+    virtual void show() = 0;
+    int getX() { return X; }
+};
+
