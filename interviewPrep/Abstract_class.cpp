@@ -55,7 +55,16 @@ int main(void)
 
 /*
 Output :
-
 Compiler Error: cannot declare variable 't' to be of abstract type 'Test' because the following
 virtual functions are pure within 'Test': note: virtual void Test::show()
 */
+
+// We can have pointers and references of abstract class type.
+// For example the following program works fine.
+
+class Base
+{
+public:
+    virtual void show() = 0;
+};
+
