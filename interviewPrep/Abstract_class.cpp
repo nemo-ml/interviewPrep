@@ -1,5 +1,4 @@
 /*
-* 
 //What is a pure virtual function ?
 
 A pure virtual function(or abstract function) in C++ is a virtual function for which we don’t
