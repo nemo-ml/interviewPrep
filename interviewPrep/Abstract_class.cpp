@@ -42,13 +42,13 @@ class Test
 {
     int X;
 public:
-    virtual void show() = 0;
+    virtual void show() = 0;             // Pure virtual functions make a class abstract
     int getX() { return X; }
 };
 
 int main(void)
 {
-    Test testObject;                // Pure virtual functions make a class abstract
+    Test testObject;                    // Object Cant Create of Abstract Class
 
     return 0;
 }
