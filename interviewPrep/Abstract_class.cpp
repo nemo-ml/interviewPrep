@@ -52,3 +52,10 @@ int main(void)
 
     return 0;
 }
+
+/*
+Output :
+
+Compiler Error: cannot declare variable 't' to be of abstract type 'Test' because the following
+virtual functions are pure within 'Test': note: virtual void Test::show()
+*/
