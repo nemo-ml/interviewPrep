@@ -46,3 +46,9 @@ public:
     int getX() { return X; }
 };
 
+int main(void)
+{
+    Test testObject;                // 
+
+    return 0;
+}
