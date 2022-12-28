@@ -76,7 +76,7 @@ int main(void)
 {
     Base noptrbaseObject;            // Cant Create Object of Abstract Class
 
-    Derived derivedObject;      // Object is created for Derived Class
+    Derived derivedObject;          // Object is created for Derived Class
 
     Base* baseObject = new Derived;
     baseObject->show();
