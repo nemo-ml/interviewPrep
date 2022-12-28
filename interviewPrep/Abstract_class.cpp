@@ -48,7 +48,6 @@ public:
 int main(void)
 {
     Test testObject;                    // Object Cant Create of Abstract Class
-
     return 0;
 }
 
