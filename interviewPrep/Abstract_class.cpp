@@ -34,7 +34,6 @@ public:                             // Data members of class
 };
 
 In above example, Test is an abstract class because it has a pure virtual function.
-
 */
 
 #include<iostream>
