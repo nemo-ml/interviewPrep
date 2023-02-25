@@ -134,6 +134,7 @@
     <ClCompile Include="FriendClass.cpp" />
     <ClCompile Include="inheritance_conecpt.cpp" />
     <ClCompile Include="LateBinding.cpp" />
+    <ClCompile Include="memory_management.cpp" />
     <ClCompile Include="Polymorphism.cpp" />
     <ClCompile Include="SingletonClass.cpp" />
     <ClCompile Include="VirtualFunction.cpp" />
