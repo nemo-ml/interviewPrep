@@ -8,3 +8,6 @@ Stack
 
 
 */
+
+// A typical memory layout of a running process
+
